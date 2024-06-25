@@ -135,15 +135,15 @@ grafico_seleccionado = sidebar.selectbox('Selecciona un gráfico', graficos)
 
 # Mostramos el gráfico seleccionado
 if grafico_seleccionado == 'Gráfico de goles del equipo roma':
-    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify; font-size: 20px;'>Este grafico consiste en un grafico de barras verticales que indican los goles anotados por partidos del equipo Roma como visitantes y local </div>", unsafe_allow_html=True)
     sidebar.image("goles_roma.png", caption='Gráfico de goles', width=500)
     pass
 elif grafico_seleccionado == 'Gráfico de Pastel ATALANTA':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 2.</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify'>El grafico de pastel muestra el promedio de  goles como visitante y local del equipo italiano Atlanta, permitiendo una visualizacion mas clara y directa.</div>", unsafe_allow_html=True)
     sidebar.image("pastel_atalanta.png", caption='Gráfico pastel', width=500)
     pass
 elif grafico_seleccionado == 'tarjetas amarillas por equipo local':
-    sidebar.markdown("<div style='text-align: justify'>Texto para la opción 3.</div>", unsafe_allow_html=True)
+    sidebar.markdown("<div style='text-align: justify'>El grafico de barras verticales muestra un promedio de tarjetas amarillas por equipo de la liga italiana.</div>", unsafe_allow_html=True)
     sidebar.image("tarjetas_amarillas_POR_EQUIPO_LOCAL.png", caption='Mapa de las lenguas sudamericanas', width=500)
     pass
 
